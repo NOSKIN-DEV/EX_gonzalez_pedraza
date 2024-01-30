@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultas</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+    
+    <link rel="stylesheet" type="text/css" href="{% static 'css/estilos2.css' %}">
+    <script src="{% static 'js/funciones.js' %}"></script>
+</head>
+<body style="background-color: white;">
+    <nav id="navbar" class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="{% url 'inicio' %}" class="letra">        
+            <img src="{% static 'img/logo.png' %}" alt="logo" style="width:40px;">
+            Garden Shop
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'inicio'%}" target="_blank">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'pagina_secundaria'%}" target="_blank">Quienes somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'pagina_galeria'%}" target="_blank">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'contacto'%}" target="_blank">Contacto</a>
+                </li>
+                {% if user.is_authenticated %}
+                  <li class="nav-item">
+                    <a class="nav-link" href="{% url 'mostrar'%}">Mostrar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{% url 'logout' %}">Cerrar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Bienvenid@ {{user.username}}</a>
+                  </li>
+                {% else %}
+                  <li class="nav-item">
+                    <a class="nav-link" href="{% url 'login'%}">iniciar Sesion</a>
+                  </li>
+                {% endif %}
+            </ul>
+        </div>
+    </nav>
+    <br><br><br>
+    <div id="reloj"></div>
+    <br><br>
+    <div class="container" style="overflow-x: auto;"><!--implementa barra desplazadora cuando el tamaño de pantalla sea mas pequeño-->
+        <h2>Listado de Consultas</h2>
+        <table class="table table-responsive" style="color: black; ">
+            <thead>
+                <tr>
+                    <th style="color: black">Nombre</th>
+                    <th style="color: black">Apellido</th>
+                    <th style="color: black">Correo</th>
+                    <th style="color: black">Consulta</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for usu in usuario %}
+                <tr style="border-bottom: 1px solid #ddd;">
+                    <td>{{ usu.nombre }}</td>
+                    <td>{{ usu.apellido}}</td>
+                    <td>{{ usu.correo}}</td>
+                    <td>{{ usu.consulta}}</td>
+                    <td><a href="{% url 'eliminarusuario' usu.nombre %}" class="btn btn-danger">Eliminar</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+  </div>

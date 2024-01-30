@@ -1,0 +1,31 @@
+.fondo{
+    background-color: lavender;
+    padding:40px;
+}
+.letra{
+    font-size: small;
+}
+
+footer{
+    padding: 30px ;
+    color: #c5c5c5;
+    background-color: #363a3f;
+    display: flex;
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+    /*flex-wrap: wrap;*/
+    text-align: center;
+}
+footer div p{
+    font-size: 15px;
+    color: #888888;
+    padding: 4px;
+    
+}
+  
+.linkFooter{
+    color: #c5c5c5;
+    
+    
+}

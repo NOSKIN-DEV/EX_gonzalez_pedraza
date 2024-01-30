@@ -1,0 +1,156 @@
+{
+    "productos":[
+        {
+            "id":1,
+            "nombre": "Macetero de ceramica volcanica",
+            "precio": 25.990,
+            "marca": "CasaIdea",
+            "imagen":"https://headless.casaideas.cl/media/catalog/product/3/2/3224503000016_1_1.jpg?optimize=low&bg-color=255%2C255%2C255&fit=bounds&height=&width=1080&quality=85&auto=webp&format=pjpg",
+            "categoria": "Macetero"
+        },
+        {
+            "id":2,
+            "nombre": "Suculenta",
+            "precio": 2.990,
+            "marca": "Architectural Digest",
+            "imagen":"https://media.admagazine.com/photos/618a5e67a9f7fab6f0622b5e/1:1/w_1081,h_1081,c_limit/93263.jpg",
+            "categoria": "Planta"
+        },
+        {
+            "id":3,
+            "nombre": "Canna Indica",
+            "precio": 4.990,
+            "marca": "Vecteezy",
+            "imagen":"https://static.vecteezy.com/system/resources/previews/015/740/653/large_2x/canna-indica-or-commonly-known-as-red-canna-flower-or-tasbih-flower-is-a-very-popular-ornamental-plant-free-photo.jpg",
+            "categoria": "Planta"
+        },
+        {
+            "id":4,
+            "nombre": "Set herramientas jardineria",
+            "precio": 31.990,
+            "marca": "Stanly",
+            "imagen": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/4a93b6d7cecd2e40fbbf324b787b2dfb.jpg?imageView2/2/w/800/q/70",
+            "categoria": "Herramientas"
+        },
+        {
+            "id":5,
+            "nombre": "Mueble de madera soporte para maceteros",
+            "precio": 38.990,
+            "marca": "CasaIdea",
+            "imagen": "https://headless.casaideas.cl/media/catalog/product/3/2/3222389000014_1.jpg?optimize=low&bg-color=255%2C255%2C255&fit=bounds&height=&width=1080&quality=85&auto=webp&format=pjpg",
+            "categoria": "Estante"
+        },
+        {
+            "id":6,
+            "nombre": "Mueble de madera soporte para maceteros en escalera",
+            "precio": 28.990,
+            "marca": "El container",
+            "imagen": "https://static.elcontainer.cl/2304-big_default/pergola-para-terrazas-de-bambu-tres-niveles.jpg",
+            "categoria": "Estante"
+        },
+        {
+            "id":7,
+            "nombre": "Aloe vera",
+            "precio": 8.990,
+            "marca": "La Green Touch",
+            "imagen": "https://lagreentouch.fr/cdn/shop/files/acheter-plante-aloe-vera-barbadensis-777686.jpg?v=1693983940&width=1200",
+            "categoria": "Planta"
+        },
+        {
+            "id":9,
+            "nombre": "Tulipan Naranja",
+            "precio": 6.990,
+            "marca": "ViverFlow",
+            "imagen": "https://economiacircularverde.com/wp-content/uploads/2019/09/07ffdfb333a744faf463f69eacdedbb4.jpg.webp",
+            "categoria": "Planta"
+        },
+        {
+            "id":10,
+            "nombre": "Convallaria",
+            "precio": 6.990,
+            "marca": "ViverFlow",
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Convallaria_majalis_inflorescence_-_Keila.jpg/220px-Convallaria_majalis_inflorescence_-_Keila.jpg",
+            "categoria": "Planta"
+        },
+        {
+            "id":11,
+            "nombre": "Geranios Rojos",
+            "precio": 6.990,
+            "marca": "ViverFlow",
+            "imagen": "https://www.hogarmania.com/archivos/201907/geranio-xl-1280x720x80xX.jpg",
+            "categoria": "Planta"
+        },
+        {
+            "id":12,
+            "nombre": "Arbol de Jade",
+            "precio": 8.990,
+            "marca": "GreenLife",
+            "imagen": "https://hips.hearstapps.com/hmg-prod/images/jade-plant-1-645157c445e14.jpg",
+            "categoria": "Planta"
+        },
+        {
+            "id":13,
+            "nombre": "Desmalezadora a gasolina 43cc",
+            "precio": 80.990,
+            "marca": "GreenLife",
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_868216-MLC46442176918_062021-O.webp",
+            "categoria": "Herramientas"
+        },
+        {
+            "id":14,
+            "nombre": "Cardenal Blanco",
+            "precio": 5.990,
+            "marca": "ViverFlow",
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_714795-MLC53087170217_122022-O.webp",
+            "categoria": "Planta"
+        },
+        {
+            "id":15,
+            "nombre": "Macetero blanco soporte de madera",
+            "precio": 33.990,
+            "marca": "IKEA",
+            "imagen":"https://www.ikea.com/cl/es/images/products/bittergurka-macetero-blanco__0748653_pe745118_s5.jpg?f=xl",
+            "categoria":"Macetero"
+        },
+        {
+            "id":16,
+            "nombre": "Soporte metal estante negro",
+            "precio": 25.990,
+            "marca": "IKEA",
+            "imagen":"https://www.ikea.com/cl/es/images/products/olivblad-soporte-para-plantas-interior-exterior-negro__1010788_pe828337_s5.jpg?f=xl",
+            "categoria":"Estante"
+        },
+        {
+            "id":17,
+            "nombre": "Set maceteros y soportes 11 unidades",
+            "precio": 99.990,
+            "marca": "IKEA",
+            "imagen":"https://www.thegarden.cl/cdn/shop/articles/BLOG_maceteros_1800x1400_3d8175f8-cca6-4791-8e9c-a70fa7941369_768x608.jpg?v=1595538088",
+            "categoria":"Macetero"
+        },
+        {
+            "id":18,
+            "nombre": "Tijera podadora",
+            "precio": 13.990,
+            "marca": "Stanly",
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_609985-MLU72149277799_102023-O.webp",
+            "categoria":"Herramientas"
+        },
+        {
+            "id":19,
+            "nombre": "Azada de mano",
+            "precio": 11.990,
+            "marca": "Stanly",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTKhbRPvWAmu7vEMxM7Xpb0-u7vlJ1c-AsOQ&usqp=CAU",
+            "categoria":"Herramientas"
+        },
+        {
+            "id":20,
+            "nombre": "Sopladora de aire",
+            "precio": 20.990,
+            "marca": "Stanly",
+            "imagen": "https://i.linio.com/p/eea9e03a0a588077f2341ae2e88ee65b-catalog.webp",
+            "categoria":"Herramientas"
+        }
+    ]
+}
